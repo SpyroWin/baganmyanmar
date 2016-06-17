@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:mycountryexe.xcodeproj">
+      location = "self:/Users/spyrowin/Desktop/Swift 2/baganmyanmar/mycountryexe.xcodeproj">
    </FileRef>
 </Workspace>

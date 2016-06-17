@@ -12,16 +12,20 @@
 		BD14192C1D148B4B00F260B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD14192A1D148B4B00F260B0 /* Main.storyboard */; };
 		BD14192E1D148B4B00F260B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD14192D1D148B4B00F260B0 /* Assets.xcassets */; };
 		BD1419311D148B4B00F260B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD14192F1D148B4B00F260B0 /* LaunchScreen.storyboard */; };
+		BDFEC91B1D14A1E500E69183 /* aboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFEC91A1D14A1E500E69183 /* aboutVC.swift */; };
+		BDFEC91D1D14A1F200E69183 /* photoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFEC91C1D14A1F200E69183 /* photoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BD1419231D148B4B00F260B0 /* mycountryexe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mycountryexe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1419231D148B4B00F260B0 /* mycountryexe.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mycountryexe.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1419261D148B4B00F260B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD1419281D148B4B00F260B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD14192B1D148B4B00F260B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD14192D1D148B4B00F260B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD1419301D148B4B00F260B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD1419321D148B4B00F260B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDFEC91A1D14A1E500E69183 /* aboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aboutVC.swift; sourceTree = "<group>"; };
+		BDFEC91C1D14A1F200E69183 /* photoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +50,7 @@
 		BD1419241D148B4B00F260B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD1419231D148B4B00F260B0 /* mycountryexe.app */,
+				BD1419231D148B4B00F260B0 /* mycountryexe.temp_caseinsensitive_rename.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +64,8 @@
 				BD14192D1D148B4B00F260B0 /* Assets.xcassets */,
 				BD14192F1D148B4B00F260B0 /* LaunchScreen.storyboard */,
 				BD1419321D148B4B00F260B0 /* Info.plist */,
+				BDFEC91A1D14A1E500E69183 /* aboutVC.swift */,
+				BDFEC91C1D14A1F200E69183 /* photoVC.swift */,
 			);
 			path = mycountryexe;
 			sourceTree = "<group>";
@@ -81,7 +87,7 @@
 			);
 			name = mycountryexe;
 			productName = mycountryexe;
-			productReference = BD1419231D148B4B00F260B0 /* mycountryexe.app */;
+			productReference = BD1419231D148B4B00F260B0 /* mycountryexe.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1419291D148B4B00F260B0 /* ViewController.swift in Sources */,
+				BDFEC91B1D14A1E500E69183 /* aboutVC.swift in Sources */,
 				BD1419271D148B4B00F260B0 /* AppDelegate.swift in Sources */,
+				BDFEC91D1D14A1F200E69183 /* photoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +260,7 @@
 				INFOPLIST_FILE = mycountryexe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.htainmyoaung.mycountryexe;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = mycountryexe.temp_caseinsensitive_rename;
 			};
 			name = Debug;
 		};
@@ -263,7 +271,7 @@
 				INFOPLIST_FILE = mycountryexe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.htainmyoaung.mycountryexe;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = mycountryexe.temp_caseinsensitive_rename;
 			};
 			name = Release;
 		};
@@ -286,6 +294,7 @@
 				BD1419371D148B4B00F260B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
